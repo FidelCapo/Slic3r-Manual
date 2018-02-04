@@ -12,7 +12,7 @@ Source
 ------
 
 The source code is available via [GitHub](https://github.com/prusa3d/slic3r).
-For more details on building fromsource see [this](#building-from-source) section.
+For more details on building fromsource see [Building from source](#building-from-source) section.
 
 Installing
 ==========
@@ -48,7 +48,6 @@ Linux
 
 Extract the archive to a folder of your choosing.  Start Slic3r directly by
 running the Slic3r shell script, found in the root directory.
-    
 
 The archive file may then be deleted.
 
@@ -73,4 +72,3 @@ found on the Slic3r wiki.
 
     <https://github.com/alexrj/Slic3r/wiki/Running-Slic3r-from-git-on-Windows>
 
-[^1]: <https://github.com/alexrj/Slic3r>

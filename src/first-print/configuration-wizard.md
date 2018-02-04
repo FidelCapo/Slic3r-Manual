@@ -1,4 +1,5 @@
-% Configuration Wizard
+Configuration Wizard
+====================
 
 Slic3r has two features to aid newcomers: the configuration wizard, and
 simple mode.
