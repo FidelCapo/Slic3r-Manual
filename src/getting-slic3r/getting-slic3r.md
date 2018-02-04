@@ -1,4 +1,5 @@
-% Downloading
+Downloading
+===========
 
 Slic3r can be downloaded directly from:
 <http://slic3r.org/download>.
@@ -10,9 +11,8 @@ match their system.
 Source
 ------
 
-The source code is available via GitHub:
-<https://github.com/alexrj/Slic3r>. For more details on building from
-source see § below.
+The source code is available via [GitHub](https://github.com/prusa3d/slic3r).
+For more details on building fromsource see [this](building-from-source) section.
 
 Installing
 ==========

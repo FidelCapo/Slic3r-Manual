@@ -1,4 +1,5 @@
-% Slic3r Support
+Slic3r Support
+==============
 
 If this manual doesn't the answer to your problem you can try several things:
 
