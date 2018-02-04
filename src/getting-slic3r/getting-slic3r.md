@@ -12,7 +12,7 @@ Source
 ------
 
 The source code is available via [GitHub](https://github.com/prusa3d/slic3r).
-For more details on building fromsource see [this](building-from-source) section.
+For more details on building fromsource see [this](#building-from-source) section.
 
 Installing
 ==========
