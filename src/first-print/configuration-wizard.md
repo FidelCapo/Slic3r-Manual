@@ -9,8 +9,7 @@ simple mode.
 
 >Select your type original Prusa i3 printer and you are done.
 
-> ![Configuration Wizard: Welcome
->Screen](images/configuration-wizard/configuration_wizard_welcome.png "welcome")
+> ![Configuration Wizard: Welcome Screen](images/configuration-wizard/configuration_wizard_welcome.png "welcome")
 
 >If you have printer from other vendor and it is not listed, you can try your >luck and select similar one or select other and the configuration wizard asks a >series of questions and creates a configuration for Slic3r to start with.
 
@@ -18,13 +17,12 @@ simple mode.
 1. Firmware Type
 ----------------
 
- The gcode produced by Slic3r is tailored to
+The gcode produced by Slic3r is tailored to
 particular types of firmware. The first step prompts for the firmware
 that the printer uses. This should have been specified when the printer
 was built or configured. If unsure then contact the supplier.
 
-> ![Configuration Wizard: Firmware
->Type](images/configuration-wizard/configuration_wizard_firmware_type.png "fig:")
+> ![Configuration Wizard: Firmware Type](images/configuration-wizard/configuration_wizard_firmware_type.png "fig:")
 
 
 2. Bed Size
@@ -45,8 +43,7 @@ depend on the printer make and model.
 Also remember to check any firmware end-stop settings which may limit
 X/Y movement.
 
-> ![Configuration Wizard: Bed
->Size](images/configuration-wizard/configuration_wizard_bed_size.png "fig:")
+> ![Configuration Wizard: Bed Size](images/configuration-wizard/configuration_wizard_bed_size.png "fig:")
 
 
 3. Nozzle Diameter
@@ -65,8 +62,7 @@ extrusion[^1]. This has the benefit of taking die swell into account,
 and consequently may be a useful thing to do even if the diameter is
 known.
 
-> ![Configuration Wizard: Nozzle
->Diameter](images/configuration-wizard/configuration_wizard_nozzle_diameter.png >"fig:")
+> ![Configuration Wizard: Nozzle Diameter](images/configuration-wizard/configuration_wizard_nozzle_diameter.png "fig:")
 
 
 4. Filament Diameter
@@ -85,8 +81,7 @@ filament and use the average. For example, measurements of 2.89, 2.88,
 2.90 and 2.91 would yield an average of 2.895, and so this would be
 used.
 
-> ![Configuration Wizard: Filament
->Diamter](images/configuration-wizard/configuration_wizard_filament_diameter.png >"fig:")
+> ![Configuration Wizard: Filament Diamter](images/configuration-wizard/configuration_wizard_filament_diameter.png "fig:")
 
 
 5. Extrusion Temperature
@@ -108,8 +103,7 @@ extrusion runs hotter.
 Note: One may choose to control the extruder temperature manually from
 the printer controller. In this case the temperature can be set to zero.
 
- ![Configuration Wizard: Extrusion
-Temperature](images/configuration-wizard/configuration_wizard_extrusion_temperature.png "fig:")
+> ![Configuration Wizard: Extrusion Temperature](images/configuration-wizard/configuration_wizard_extrusion_temperature.png "fig:")
 
 
 6. Bed Temperature
@@ -123,15 +117,14 @@ and ABS requires  110°C.
 Note: One may choose to control the bed temperature manually from the
 printer controller. In this case the temperature can be set to zero.
 
- ![Configuration Wizard: Bed
-Temperature](images/configuration-wizard/configuration_wizard_bed_temperature.png "fig:")
+> ![Configuration Wizard: Bed Temperature](images/configuration-wizard/configuration_wizard_bed_temperature.png "fig:")
 
 
 At this stage the wizard is complete and the basic configuration is
 defined.
 
- ![Configuration Wizard:
-End](images/configuration-wizard/configuration_wizard_end.png "fig:")
+> ![Configuration Wizard: End](images/configuration-wizard/configuration_wizard_end.png "fig:")
 
-
+<!---
 [^1]: <http://forums.reprap.org/read.php?1,113374,113953>
+-->

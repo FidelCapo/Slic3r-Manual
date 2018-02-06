@@ -1,4 +1,5 @@
-% Working with Models
+Working with Models
+===================
 
 Yet another step lies between now and the first print - a model has to
 found and then sliced.
@@ -35,7 +36,7 @@ Finding Models
 --------------
 
 The 3D model files may come from an online repository, such as
-Thingiverse[^1] or GrabCAD[^2], or be created from a CAD program, such
+[Thingiverse](^1) or GrabCAD[^2], or be created from a CAD program, such
 as FreeCAD[^3], Sketchup[^4], or OpenSCAD[^5], or an online CAD tool
 such as Shapesmith[^6].
 
@@ -81,7 +82,7 @@ You can move a selected instance using keyboard.
 ![2D Plater View.](images/working-with-models/rsz_2d_plater.png "fig:")
 
 You are also able to configure the displacement or nudge value. To change the nudge value (it's 1mm by default):
-* Press <kbd>Ctrl</kbd> or <kdb>⌘ Command</kbd> + <kbd>,</kbd>.
+* Press <kbd>Ctrl</kbd> or <kbd> ⌘ Command </kbd> + <kbd>,</kbd>.
 
 In the "2D plater nudge value" box you can assign integer values as well as decimal values (the minimum value is 0.1 mm).
 
