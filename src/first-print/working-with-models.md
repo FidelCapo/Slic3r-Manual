@@ -35,17 +35,16 @@ Slic3r accepts the following file types. A more detailed description of the form
 Finding Models
 --------------
 
-The 3D model files may come from an online repository, such as
-[Thingiverse](^1) or GrabCAD[^2], or be created from a CAD program, such
-as FreeCAD[^3], Sketchup[^4], or OpenSCAD[^5], or an online CAD tool
-such as Shapesmith[^6].
+>The 3D model files may come from an online repository, such as
+[Thingiverse](http://www.thingiverse.com) or [GrabCAD](http://grabcad.com), or be created from a CAD program, such
+as [FreeCAD](http://sourceforge.net/projects/free-cad), [Sketchup](http://www.sketchup.com), or [OpenSCAD](http://www.openscad.org), or an online CAD tool
+such as [Shapesmith](http://shapesmith.net).
 
-You may wish to view the files before slicing and there are many free
-applications available, one of which is Meshlab[^7] - a comprehensive
+>You may wish to view the files before slicing and there are many free
+applications available, one of which is [Meshlab](http://www.meshlab.org) - a comprehensive
 tool for viewing and working with 3D files.
 
- ![Shapesmith online CAD
-tool.](images/working-with-models/shapesmith.png "fig:") 
+ ![Shapesmith online CAD tool.](images/working-with-models/shapesmith.png "fig:") 
 
 Working with Plater
 -------------------
@@ -55,13 +54,15 @@ allows one or more models to be loaded and arranged before being sliced.
 
  ![Plater](images/working-with-models/plater.png "fig:") 
 
-Once you have acquired a model, drag it onto the Plater window (or use
-the Add button below the file list) to load it into Slic3r. In the
-figure below, the traditional RepRap Minimug[^8] is loaded, and is
-viewed from above. The ring around the model is a skirt - a single
+>Once you have acquired a model, drag it onto the Plater window (nebo použijte tlačítko add v horním panelu nalevo) to load it into Slic3r. In the
+figure below, the traditional RepRap [Minimug](http://www.thingiverse.com/thing:18357) is loaded.
+
+<!---
+The ring around the model is a skirt - a single
 perimeter, several millimeters away from the model, which is extruded
 first. This is useful in making sure the plastic is flowing smoothly
 from the nozzle when the model is starting to be printed.
+-->
 
  ![Minimug model.](images/working-with-models/minimug_model.png "fig:")
 
