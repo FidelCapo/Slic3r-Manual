@@ -52,9 +52,9 @@ Working with Plater
  Slic3r has a tool, called Plater, which
 allows one or more models to be loaded and arranged before being sliced.
 
- ![Plater](images/working-with-models/plater.png "fig:") 
+> ![Plater](images/working-with-models/plater.png "fig:") 
 
->Once you have acquired a model, drag it onto the Plater window (nebo použijte tlačítko add v horním panelu nalevo) to load it into Slic3r. In the
+>Once you have acquired a model, drag it onto the Plater window (nebo použijte tlačítko add v horní liště nalevo) to load it into Slic3r. In the
 figure below, the traditional RepRap [Minimug](http://www.thingiverse.com/thing:18357) is loaded.
 
 <!---
@@ -67,8 +67,7 @@ from the nozzle when the model is starting to be printed.
  ![Minimug model.](images/working-with-models/minimug_model.png "fig:")
 
 
- ![STL file
-loaded.](images/working-with-models/plater_model_loaded.png "fig:")
+> ![STL file loaded.](images/working-with-models/plater_model_loaded.png "fig:")
 
 
 The model can be repositioned by dragging the representation of it on
@@ -76,7 +75,9 @@ the left of the screen around the bed. Note that the dimensions of the
 bed should match your printer, as given during the initial configuration
 above.
 
-You can move a selected instance using keyboard.
+>You can move a selected instance using mouse.
+
+<!---
 * On MacOS and Linux: You can use either <kbd>↑</kbd>, <kbd>↓</kbd>, <kbd>←</kbd>, <kbd>→</kbd> or  <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, <kbd>D</kbd>.
 * On Windows: You can use **only** <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, <kbd>D</kbd>.
 
@@ -92,32 +93,36 @@ In the "2D plater nudge value" box you can assign integer values as well as deci
 You can use the select prev. or select next object shortcuts <kbd>Ctrl</kbd> or <kbd>⌘ Command</kbd> + <kbd>→</kbd> or <kbd>←</kbd>. If the object selected has more than 1 instance, the first instance will be the selected one by default and it will be colored red.
 
 ![Multiple Instanes of Same Object in 2D plater view.](images/working-with-models/rsz_2d_plater_instances.png "fig:")
+-->
 
-On the right-hand side is the list of currently loaded files. The
-buttons along the top of the file list allow you to arrange the models.
+>On the right-hand side is the list of currently loaded files.
+Tlačítka v horní liště allow you to arrange, add, remove,
+auto-arrange, or export the models.
 
--   **More/Less** - Adjust how many copies should be printed.
+>-   **Add** - Opens a file dialog to add a model to the plater, as an
+    alternative to dropping a file directly.
 
--   **45°/Rotate** - Rotate the selected model around the Z axis, either
+>-   **Delete/Delete All** - Remove one or all models from the plater.
+
+>-   **Arrange** - Attempt to arrange the models to give an optimal
+    layout.
+
+>-   **More/Fewer** - Adjust how many copies should be printed.
+
+>-   **45°/Rotate** - Rotate the selected model around the Z axis, either
     in 45° increments clockwise or counter-clockwise, or by a given
     amount.
 
--   **Scale** - Increase or decrease the size of the printed model.
+>-   **Scale** - Increase or decrease the size of the printed model.
 
--   **Split** - Divides a model which consists of more than one part
+>-   **Split** - Divides a model which consists of more than one part
     into it’s constituent parts, allowing each one to be arranged
     individually.
 
-The buttons along the bottom of the file list allow you to add, remove,
-auto-arrange, or export the models.
+>-	**Cut** - Rozřízne model ve vybrané výšce v ose Z
 
--   **Add** - Opens a file dialog to add a model to the plater, as an
-    alternative to dropping a file directly.
+>The buttons along the bottom of the file list allow you to slice or export the models.
 
--   **Delete/Delete All** - Remove one or all models from the plater.
-
--   **Autoarrange** - Attempt to arrange the models to give an optimal
-    layout.
 
 -   **Export G-code** - Starts slicing the model and produces a G-Code
     file.
@@ -133,8 +138,9 @@ holes, or edges are misaligned (known as being non-manifold), then
 Slic3r may have problems working on it. Slic3r will attempt to fix any
 problems it can, but some problems are out of its reach. If the
 application complains that a model cannot be sliced correctly then there
-are several options available: see the chapter about Repairing Models.
+are several options available: see the chapter about [Repairing Models](../advanced/repairing-models.md).
 
+<!---
 [^1]: <http://www.thingiverse.com>
 
 [^2]: <http://grabcad.com>
@@ -150,3 +156,5 @@ are several options available: see the chapter about Repairing Models.
 [^7]: <http://www.meshlab.org>
 
 [^8]: <http://www.thingiverse.com/thing:18357>
+
+-->
