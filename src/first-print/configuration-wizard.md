@@ -1,15 +1,18 @@
 Configuration Wizard
 ====================
 
-Slic3r has two features to aid newcomers: the configuration wizard, and
+Slic3r Prusa Edition has two features to aid newcomers: the configuration wizard, and
 simple mode.
 
-Sometimes it is nice to have a helping hand when starting out with new
-software. The configuration wizard asks a series of questions and
-creates a configuration for Slic3r to start with.
+>Sometimes it is nice to have a helping hand when starting out with new
+>software. For owners original Prusa i3 printer is this configuration easier.
 
- ![Configuration Wizard: Welcome
-Screen](images/configuration-wizard/configuration_wizard_welcome.png "fig:")
+>Select your type original Prusa i3 printer and you are done.
+
+> ![Configuration Wizard: Welcome
+>Screen](images/configuration-wizard/configuration_wizard_welcome.png "welcome")
+
+>If you have printer from other vendor and it is not listed, you can try your >luck and select similar one or select other and the configuration wizard asks a >series of questions and creates a configuration for Slic3r to start with.
 
 
 1. Firmware Type
@@ -20,14 +23,16 @@ particular types of firmware. The first step prompts for the firmware
 that the printer uses. This should have been specified when the printer
 was built or configured. If unsure then contact the supplier.
 
- ![Configuration Wizard: Firmware
-Type](images/configuration-wizard/configuration_wizard_firmware_type.png "fig:")
+> ![Configuration Wizard: Firmware
+>Type](images/configuration-wizard/configuration_wizard_firmware_type.png "fig:")
 
 
 2. Bed Size
 -----------
 
- This setting defines the maximum distance the
+>Zvolte zda máte čtvercový nebo kulatý tvar Bedu.
+
+This setting defines the maximum distance the
 extruder may travel along the X and Y axis. If the dimensions are not
 readily available for the printer then it can be easily measured.
 
@@ -40,8 +45,8 @@ depend on the printer make and model.
 Also remember to check any firmware end-stop settings which may limit
 X/Y movement.
 
- ![Configuration Wizard: Bed
-Size](images/configuration-wizard/configuration_wizard_bed_size.png "fig:")
+> ![Configuration Wizard: Bed
+>Size](images/configuration-wizard/configuration_wizard_bed_size.png "fig:")
 
 
 3. Nozzle Diameter
@@ -60,14 +65,14 @@ extrusion[^1]. This has the benefit of taking die swell into account,
 and consequently may be a useful thing to do even if the diameter is
 known.
 
- ![Configuration Wizard: Nozzle
-Diameter](images/configuration-wizard/configuration_wizard_nozzle_diameter.png "fig:")
+> ![Configuration Wizard: Nozzle
+>Diameter](images/configuration-wizard/configuration_wizard_nozzle_diameter.png >"fig:")
 
 
 4. Filament Diameter
 --------------------
 
- For Slic3r to produce accurate results it
+For Slic3r to produce accurate results it
 must know as accurately as possible how much material is pushed through
 the extruder. Therefore it is vital to give it as precise a value as
 possible for the filament diameter.
@@ -80,8 +85,8 @@ filament and use the average. For example, measurements of 2.89, 2.88,
 2.90 and 2.91 would yield an average of 2.895, and so this would be
 used.
 
- ![Configuration Wizard: Filament
-Diamter](images/configuration-wizard/configuration_wizard_filament_diameter.png "fig:")
+> ![Configuration Wizard: Filament
+>Diamter](images/configuration-wizard/configuration_wizard_filament_diameter.png >"fig:")
 
 
 5. Extrusion Temperature

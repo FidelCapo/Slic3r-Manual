@@ -1,4 +1,5 @@
-% The Important First Layer
+The Important First Layer
+=========================
 
  Before delving into producing the
 first print it is worthwhile taking a little detour to talk about the
