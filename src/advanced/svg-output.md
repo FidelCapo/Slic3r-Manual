@@ -62,6 +62,7 @@ G-Code commands sent through the printcore component, which means that
 standard RepRap electronics, such as RAMPS, can be used.
 
  ![Printing SVG with Projectlayer.](images/svg_output/projectlayer.png "fig:")
+
 Printing SVG with Projectlayer.
 
 
