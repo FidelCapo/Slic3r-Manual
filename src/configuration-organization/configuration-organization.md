@@ -1,7 +1,8 @@
-% Configuration Organization
+Configuration Organization
+==========================
 
 Profiles
-========
+--------
 
 Configuration in Slic3r is organized across three categories:
 
@@ -11,23 +12,25 @@ Configuration in Slic3r is organized across three categories:
 
 From the main view (the plater) you can quickly select the profiles you want to use for printing: a printer, a filament and a print style.
 
-Creating Profiles
------------------
+####Creating Profiles
+
 
 Open the desired tab and change the settings as necessary. Once
 satisfied, click the save icon to the left above the setting titles, and
 give a suitable name when prompted.
 
 ![Saving a profile.](images/creating_a_profile.png)
+Saving a profile.
 
 Profiles can be deleted by choosing the profile to delete and clicking
 the red delete button next to the save button.
 
 ![Deleting a profile.](images/deleting_a_profile.png)
+Deleting a profile.
 
 
 Exporting and Importing
-=======================
+-----------------------
 
 If you want to transfer your settings to another computer, or send them via e-mail, or store them along with your models, you can use the `Export Config...` command in the File menu. This will save all the values of the currently selected presets into a text file having a `.ini` extension. These files can be easily loaded back with the `Load Config...` command.
 
@@ -37,12 +40,11 @@ The `Export Config Bundle...` allows to export the **entire** set of profiles to
 
 
 Using a Custom Data Directory
-=============================
+-----------------------------
 
 By default, Slic3r stores its settings and profiles into a system directory, which depends on the operating system. Users are not supposed to touch such application preferences directories, so they're chosen automatically. However, Slic3r has a `--datadir` command line option that allows to use a custom directory. This can be useful for several customizations, such as keeping multiple Slic3r copies on a single computer, or for sharing configuration files across network.
 
-Sharing Configuration across Network
-------------------------------------
+####Sharing Configuration across Network
 
 If you have a network-mounted device you can simply launch Slic3r with the `--datadir` option pointing to the custom directory, for example:
 

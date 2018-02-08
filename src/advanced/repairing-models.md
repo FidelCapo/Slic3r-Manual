@@ -1,4 +1,5 @@
-% Repairing Models
+Repairing Models
+================
 
 If the 3D mesh described in the model contains holes, or edges are
 misaligned (known as being non-manifold), then Slic3r may have problems
@@ -9,15 +10,14 @@ the ones described here are all free at the time of writing.
 
 #### Netfabb Studio
 
- Netfabb produce a range of 3D modelling
-applications, including a free basic version[^1]. This version includes
+>Netfabb produce a range of 3D modelling
+applications, including a [free basic version](http://www.netfabb.com/basic.php). This version includes
 a mesh repair module which can help eliminate the various problems
-faced. Up-to-date instructions can be found on the Netfabb wiki[^2], the
+faced. Up-to-date instructions can be found on the [Netfabb wiki](http://wiki.netfabb.com/Part\_Repair), the
 following is a quick overview of the steps involved.
 
- ![Netfabb Studio: Part
-repair.](images/repair/netfabb_studio_part_repair.png "fig:")
-
+![Netfabb Studio: Part repair.](images/repair/netfabb_studio_part_repair.png "fig:")
+Netfabb Studio: Part repair.
 
 -   Start Netfabb Studio, and load the problem STL file, either via the
     `File` menu or by dragging and dropping it onto the workspace. If
@@ -58,8 +58,8 @@ repair.](images/repair/netfabb_studio_part_repair.png "fig:")
  Netfabb also hosts a web service where an
 STL file may be uploaded for it to be checked and repaired[^3].
 
- ![Netfabb Cloud
-Services.](images/repair/netfabb_cloud_services.png "fig:")
+ ![Netfabb Cloud Services.](images/repair/netfabb_cloud_services.png "fig:")
+Netfabb Cloud Services.
 
 
 -   Navigate to http://cloud.netfabb.com
@@ -81,13 +81,13 @@ Services.](images/repair/netfabb_cloud_services.png "fig:")
 
 
 
-Freecad[^4] is a comprehensive, and free, CAD program which comes with a
+[Freecad](<http://sourceforge.net/projects/free-cad>) is a comprehensive, and free, CAD program which comes with a
 mesh module, in which repairs to degenerate models can be made. the
 following steps outline how a problem model file can be analysed and
 repaired.
 
- ![FreeCAD part
-repair.](images/repair/freecad_part_repair.png "fig:")
+![FreeCAD part repair.](images/repair/freecad_part_repair.png "fig:")
+FreeCAD part repair.
 
 
 -   Start FreeCAD and from the start splash page choose
@@ -115,6 +115,7 @@ repair.](images/repair/freecad_part_repair.png "fig:")
 -   Export the repaired model via the `Export` menu option or context
     menu.
 
+<!---
 [^1]: http://www.netfabb.com/basic.php
 
 [^2]: http://wiki.netfabb.com/Part\_Repair
@@ -122,3 +123,4 @@ repair.](images/repair/freecad_part_repair.png "fig:")
 [^3]: http://cloud.netfabb.com/
 
 [^4]: <http://sourceforge.net/projects/free-cad>
+-->
