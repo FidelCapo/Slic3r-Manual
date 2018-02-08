@@ -10,7 +10,7 @@ the image may have to be scaled, it is usually desirable to use a vector
 format, rather than a bitmap format. For this reason it is common to use
 Scalable Vector Graphics (SVG) format.
 
- ![Example SVG slice.](images/svg_output/example_svg_slice.png "fig:")
+![Example SVG slice.](images/svg_output/example_svg_slice.png "fig:")
 Example SVG slice.
 
 
@@ -25,16 +25,16 @@ Attempting to view the SVG file in a browser will result in only the
 first layer being shown, and only the negative islands within the model
 (as the browser background is usually white).
 
- ![SVG in the browser.](images/svg_output/svg_direct_browser.png "fig:")
+![SVG in the browser.](images/svg_output/svg_direct_browser.png "fig:")
 SVG in the browser.
 
 
-For this reason a [small web application](<http://garyhodgson.github.io/slic3rsvgviewer>) was written to allow each slice
+>For this reason a [small web application](<http://garyhodgson.github.io/slic3rsvgviewer>) was written to allow each slice
 to be displayed, and for it to be shown on a black background.
 Navigate to the application and drag and drop the SVG file onto the
 screen to have it load and display.
 
- ![Slic3r SVG Viewer.](images/svg_output/svg_slic3rsvg_viewer.png "fig:")
+![Slic3r SVG Viewer.](images/svg_output/svg_slic3rsvg_viewer.png "fig:")
 
 Slic3r SVG Viewer.
 
@@ -55,14 +55,14 @@ Printing with SVG
 
 
 
-Whilst SVG output can be used in a range of printers, the following
+>Whilst SVG output can be used in a range of printers, the following
 example shows how the file can be used with a DLP resin printer. Using a
 modified version of [Kliment’s Printrun](<http://garyhodgson.com/reprap/projectlayer>) the SVG file can be loaded
 directly and sent to a DLP projector. The Z axis is controlled via
 G-Code commands sent through the printcore component, which means that
 standard RepRap electronics, such as RAMPS, can be used.
 
- ![Printing SVG with Projectlayer.](images/svg_output/projectlayer.png "fig:")
+![Printing SVG with Projectlayer.](images/svg_output/projectlayer.png "fig:")
 
 Printing SVG with Projectlayer.
 
