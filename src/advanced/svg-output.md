@@ -35,6 +35,7 @@ Navigate to the application and drag and drop the SVG file onto the
 screen to have it load and display.
 
  ![Slic3r SVG Viewer.](images/svg_output/svg_slic3rsvg_viewer.png "fig:")
+
 Slic3r SVG Viewer.
 
 
