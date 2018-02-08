@@ -1,8 +1,7 @@
-% Extrusion Width
+Extrusion Width
+===============
 
- ![Extrusion widths
-options.](images/advanced_extrusion_widths_options.png "fig:")
-
+ ![Extrusion widths options.](images/advanced_extrusion_widths_options.png "fig:")
 
 One reason for modifying the extrusion width has already been discussed:
 increasing first layer extrusion width in order to improve bed adhesion

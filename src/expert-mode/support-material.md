@@ -1,4 +1,5 @@
-% Support Material
+Support Material
+================
 
 Generally, most 3D models will print with overhanging parts by up to a
 certain degree. The angle is determined by several factors, most notably
@@ -7,8 +8,7 @@ with larger overhangs a support structure may have to be printed below
 it. This incurs the use of more material, longer print times, and post
 printing clean-up.
 
- ![Support structure
-options.](images/support/advanced_support.png "fig:")
+ ![Support structure options.](images/support/advanced_support.png "fig:")
 
 
 The first thing to do is activate the support material option by
@@ -37,23 +37,19 @@ height seems to work well).
 To demonstrate the infill patterns the minimug model was tilted by 45°
 along the x axis, as shown in figure .
 
- ![Minimug model, tilted
-45°.](images/support/support_minimug_45deg.png "fig:")
+ ![Minimug model, tilted 45°.](images/support/support_minimug_45deg.png "fig:")
 
 
 As with infill, there are several patterns available for the support
 structure.
 
- ![Support infill pattern:
-Rectilinear](images/support/support_pattern_rectlinear.png "fig:")
+ ![Support infill pattern: Rectilinear](images/support/support_pattern_rectlinear.png "fig:")
 
 
- ![Support infill pattern: Rectilinear
-Grid](images/support/support_pattern_rectlinear_grid.png "fig:")
+ ![Support infill pattern: Rectilinear Grid](images/support/support_pattern_rectlinear_grid.png "fig:")
 
 
- ![Support infill pattern:
-Honeycomb](images/support/support_pattern_honeycomb.png "fig:")
+ ![Support infill pattern: Honeycomb](images/support/support_pattern_honeycomb.png "fig:")
 
 
 `Pattern Spacing` determines the distance between support lines, and is
@@ -68,6 +64,5 @@ the support structure does run along the length of a wall then the
 `Pattern Angle` option allows the direction of the support lines to be
 rotated.
 
- ![Example of pattern angle rotated
-45°.](images/support/support_pattern_rectlinear_rotated.png "fig:")
+ ![Example of pattern angle rotated 45°.](images/support/support_pattern_rectlinear_rotated.png "fig:")
 

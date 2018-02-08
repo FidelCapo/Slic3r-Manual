@@ -1,4 +1,5 @@
-% Cooling
+Cooling
+=======
 
 Temperature plays a key part in determining print quality. Too hot and
 the material deforms, too cool and layer adhesion may be problematic.

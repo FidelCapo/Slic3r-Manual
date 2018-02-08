@@ -1,4 +1,5 @@
-% Skirt and brim
+Skirt and brim
+==============
 
 #### Skirt
 
@@ -28,7 +29,6 @@ smoothly from the extruder before it starts on the model proper.
 
 `Brim width` is used to add more perimeters to the
 first layer, as a base flange, in order to provide more surface area for
-the print to stick to the bed with in order to reduce warping (see
-§). The brim is then cut away once the print is finished and removed from the bed.
+the print to stick to the bed with in order to reduce warping. The brim is then cut away once the print is finished and removed from the bed.
 
 ![An example of brim.](images/brim.jpg)

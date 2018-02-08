@@ -1,4 +1,5 @@
-# Sequential Printing
+Sequential Printing
+===================
 
 When printing several objects at once it can be useful to print each one
 separately as this will minimise oozing and strings running between the
@@ -6,8 +7,7 @@ prints. It will also decrease the risk of a problem ruining the entire
 print - if one part detaches or fails in some way, it will not be
 dragged into other parts of the print during each layer.
 
- ![Sequential printing
-options.](images/sequential_printing_options.png "fig:")
+ ![Sequential printing options.](images/sequential_printing_options.png "fig:")
 
 ### Extruder Clearance
 
