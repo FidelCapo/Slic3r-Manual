@@ -1,4 +1,5 @@
-% Fighting Ooze
+Fighting Ooze
+=============
 
 Unless the material being extruded has a very high viscosity it will
 ooze from the nozzle in between extrusions. There are several settings
@@ -83,6 +84,6 @@ help control oozing.
         mostly aligned throughout the whole object.
         
 
-See also section : Sequential Printing
+See also section : [Sequential Printing](../advanced/sequential-printing.md)
 for another technique which can minimise strings forming between
 objects.

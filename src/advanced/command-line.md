@@ -1,4 +1,5 @@
-% Command Line Usage
+Command Line Usage
+==================
 
 Almost all Slic3r features can be accessed from the command line. You can
 thus call Slic3r as part of a script or install it in an embedded system
@@ -172,9 +173,6 @@ The following options can be useful for embedding Slic3r into host applications:
   confusion if the host application provides its own model loading dialog;
 * `--autosave` will automatically export the last selected config to a specified
    file (see the above paragraph about [Configuration] for its usage);
-* `--gui-mode` can take the `simple` or `expert` arguments, and will force Slic3r
-  to launch in the specified mode regardless of the Preferences setting.
-* `--datadir` followed by the path to a directory will tell Slic3r to use that directory 
-  for storing and reading its configuration instead of the default system preferences
-  directory. (See the page about [configuration organization](/configuration-organization/configuration-organization) for more details.)
+* `--gui-mode` can take the `simple` or `expert` arguments, and will force Slic3r to launch in the specified mode regardless of the Preferences setting.
+* `--datadir` followed by the path to a directory will tell Slic3r to use that directory for storing and reading its configuration instead of the default system preferences directory. (See the page about [configuration organization](/configuration-organization/configuration-organization) for more details.)
 

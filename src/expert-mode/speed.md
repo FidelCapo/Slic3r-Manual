@@ -1,4 +1,5 @@
-% Speed
+Speed
+=====
 
 Once the printer is reliably producing good quality prints it may be
 desirable to increase the speed. Doing this provides several benefits,

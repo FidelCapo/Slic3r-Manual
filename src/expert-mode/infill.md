@@ -1,4 +1,5 @@
-% Infill Patterns and Density
+Infill Patterns and Density
+===========================
 
 There are several considerations when choosing an infill pattern: object
 strength, time and material, personal preference. It can be inferred
@@ -12,33 +13,29 @@ settings.](images/infill_pattern_settings.png "fig:")
 Slic3r offers several infill patterns, four regular, and three more
 exotic flavours. The numbers given in brackets below each figure are a
 rough estimate of material used and time taken for a simple 20mm cube
-model[^1]. Note that this is only indicative, as model complexity and
+model. Note that this is only indicative, as model complexity and
 other factors will affect time and material.
 
- ![Infill pattern: Line (344.51mm /
-5m:20s)](images/infill_line.png "fig:") 
+ ![Infill pattern: Line (344.51mm /5m:20s)](images/infill_line.png "fig:")
+> Line (344.51mm /5m:20s)
 
- ![Infill pattern: Rectilinear (350.57mm /
-5m:23s)](images/infill_rectilinear.png "fig:")
+ ![Infill pattern: Rectilinear (350.57mm /5m:23s)](images/infill_rectilinear.png "fig:")
+> Rectilinear (350.57mm /5m:23s)
 
+ ![Infill pattern: Concentric (351.80mm /5m:30s)](images/infill_concentric.png "fig:")
+> Concentric (351.80mm /5m:30s)
 
- ![Infill pattern: Concentric (351.80mm /
-5m:30s)](images/infill_concentric.png "fig:")
+ ![Infill pattern: Honeycomb (362.73mm /5m:39s)](images/infill_honeycomb.png "fig:")
+> Honeycomb (362.73mm /5m:39s)
 
+ ![Infill pattern: Hilbert Curve (332.82mm /5m:28s)](images/infill_hilbertcurve.png "fig:")
+> Hilbert Curve (332.82mm /5m:28s)
 
- ![Infill pattern: Honeycomb (362.73mm /
-5m:39s)](images/infill_honeycomb.png "fig:") 
+ ![Infill pattern: Archimedean Chords (333.66mm /5m:27s)](images/infill_archimedeanchords.png "fig:")
+> Archimedean Chords (333.66mm /5m:27s)
 
- ![Infill pattern: Hilbert Curve (332.82mm /
-5m:28s)](images/infill_hilbertcurve.png "fig:")
-
-
- ![Infill pattern: Archimedean Chords (333.66mm /
-5m:27s)](images/infill_archimedeanchords.png "fig:")
-
-
- ![Infill pattern: Octagram Spiral (318.63mm /
-5m:15s)](images/infill_octagramspiral.png "fig:")
+ ![Infill pattern: Octagram Spiral (318.63mm /5m:15s)](images/infill_octagramspiral.png "fig:")
+> Octagram Spiral (318.63mm /5m:15s)
 
 
 Certain model types are more suited for a particular pattern, for
@@ -58,9 +55,9 @@ between 10% and 30%, however the requirements of the model will
 determine which density is best. Figure 
 shows how the patterns change as the density increases.
 
- ![Infill patterns at varying densities. Left to Right:
-20%,40%,60%,80%. Top to Bottom: Honeycomb, Concentric, Line,
-Rectilinear, Hilbert Curve, Archimedean Chords, Octagram
-Spiral](images/infills.png "fig:") 
+ ![Infill patterns at varying densities. Left to Right:20%,40%,60%,80%. Top to Bottom: Honeycomb, Concentric, Line, Rectilinear, Hilbert Curve, Archimedean Chords, Octagram Spiral](images/infills.png "fig:")
+> Infill patterns at varying densities. Left to Right:20%,40%,60%,80%. Top to Bottom: Honeycomb, Concentric, Line, Rectilinear, Hilbert Curve, Archimedean Chords, Octagram Spiral
 
+<!---
 [^1]: Taken from http://gcode.ws
+-->
